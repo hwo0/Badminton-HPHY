@@ -118,7 +118,7 @@ else:
 # html_table = html_table.replace('<td>', '<td contenteditable="true">')
 
 # Estimate height for DataFrame display
-row_height = 30  # Approximate height of each row in pixels
+row_height = 35  # Approximate height of each row in pixels
 header_height = 40  # Approximate height of the header in pixels
 total_height = header_height + (len(df) * row_height) + 50  # Add some padding
 
