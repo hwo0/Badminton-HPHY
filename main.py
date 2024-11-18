@@ -117,9 +117,11 @@ st.subheader("*** ๑>◡<๑ *** ๑>◡<๑ *** ๑>◡<๑ *** ")
 st.sidebar.title("Instructions")
 st.sidebar.write("""
 1. Edit 'Player Names' in the top table above. (Other columns can be ignored)
+2. Click 'Save Player Data' button to save player names & retain your latest edits for the next session
 2. Click 'Update Data' button to transfer player names onto Scheduler
 3. Drag and drop court numbers to swap values inside the Scheduler
-4. The app will retain your latest edits for the next session.
+
+Note: Edits in Scheduler is not retained and resets to default on each session.
 
 (Development Version 1.0 - 18/11/2024)
 """)
